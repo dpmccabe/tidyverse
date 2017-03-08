@@ -21,7 +21,6 @@ Imports:
     modelr,
     purrr,
     readr,
-    readxl,
     stringr,
     tibble,
     tidyr,

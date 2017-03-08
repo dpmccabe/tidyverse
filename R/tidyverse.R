@@ -9,7 +9,6 @@
 #' @importFrom lubridate ymd
 #' @importFrom modelr add_predictions
 #' @importFrom readr read_csv
-#' @importFrom readxl read_excel
 #' @importFrom stringr str_c
 #' @importFrom tidyr spread
 NULL
