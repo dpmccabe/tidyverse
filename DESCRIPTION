@@ -18,7 +18,6 @@ Imports:
     hms,
     lubridate,
     magrittr,
-    modelr,
     purrr,
     readr,
     stringr,
