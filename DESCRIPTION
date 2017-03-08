@@ -15,10 +15,7 @@ Imports:
     dplyr,
     forcats,
     ggplot2,
-    haven,
-    httr,
     hms,
-    jsonlite,
     lubridate,
     magrittr,
     modelr,
@@ -27,9 +24,7 @@ Imports:
     readxl,
     stringr,
     tibble,
-    rvest,
     tidyr,
-    xml2
 Suggests: 
     feather,
     knitr,
