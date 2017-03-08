@@ -47,9 +47,9 @@ tidyverse_update <- function(recursive = FALSE) {
 #' @export
 tidyverse_deps <- function(recursive = FALSE) {
   pkgs <- utils::available.packages()
-  deps <- tools::package_dependencies("tidyverse", pkgs, recursive = recursive)
+  deps <- tidyverse::tidyverse_packages()
 
-  pkg_deps <- unique(sort(unlist(deps)))
+  pkg_deps <- unique(sort(deps))
 
   base_pkgs <- c(
     "base", "compiler", "datasets", "graphics", "grDevices", "grid",
